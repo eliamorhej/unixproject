@@ -2,7 +2,7 @@
 title: Bacon & Eggs
 author: Jeeva
 date: 2020-11-08
-categories: [Breakfast]
+categories: [Food, Breakfast]
 tags: [bacon, eggs]
 toc: false
 image: /assets/img/sample/baconneggs.jpeg
