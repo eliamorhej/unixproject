@@ -11,7 +11,7 @@ echo "Building Website ..."
 bundle exec jekyll build
 
 echo "Copying files into the VPS ..."
-cp -a /var/repo/unixproject/website/_site/. /var/www/html
+sudo cp -a /var/repo/unixproject/website/_site/. /var/www/html
 
 echo "Website updated. Script will run in 5 mins. Enjoy  !"
 
