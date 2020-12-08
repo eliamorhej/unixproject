@@ -8,7 +8,7 @@ sudo git pull
 cd website
 
 echo "Building Website ..."
-bundle exec jekyll build
+sudo bundle exec jekyll build
 
 echo "Copying files into the VPS ..."
 sudo cp -a /var/repo/unixproject/website/_site/. /var/www/html
