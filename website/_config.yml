@@ -9,7 +9,7 @@
 #--------------------------
 title: Food Recipe                          # the main title
 
-tagline: by':' Jeeva, Elia, Thomas  # it will display as the sub-title
+tagline: by: Jeeva, Elia, Thomas  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A place to find all sorts of recipes 
