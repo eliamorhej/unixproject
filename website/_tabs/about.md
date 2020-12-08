@@ -11,4 +11,5 @@ order: 4
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+> This is a static website made using Jekyll for the final project of Unix course.
+> This website is made by: Jeeva, Elia, Thomas
