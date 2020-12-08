@@ -12,4 +12,6 @@ order: 4
 
 
 > This is a static website made using Jekyll for the final project of Unix course.
-> This website is made by: Jeeva, Elia, Thomas
+
+> This website is made by: **Jeeva, Elia, Thomas**
+
