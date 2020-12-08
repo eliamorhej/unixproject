@@ -1,0 +1,7 @@
+[Unit]
+Description= Run Automated Deployment Script
+
+[Service]
+Restart=always
+RestartSec=300s
+ExecStart=/var/repo/unixproject/auto.sh
