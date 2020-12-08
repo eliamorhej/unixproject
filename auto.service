@@ -5,3 +5,6 @@ Description= Run Automated Deployment Script
 Restart=always
 RestartSec=300s
 ExecStart=/var/repo/unixproject/auto.sh
+
+[Install]
+WantedBy=multi-user.target
