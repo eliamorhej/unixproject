@@ -5,7 +5,7 @@ date: 2020-12-08
 image: /assets/img/sample/burger.jpg
 ---
 
-## Recipes
+## Ingredients
 
 1. A burger bun
 2. A fat burder patty
