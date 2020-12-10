@@ -1,0 +1,30 @@
+---
+title: Hamburger
+categories: [Lunch]
+date: 2020-12-09
+image: /assets/img/sample/sushi.jpg
+---
+
+## Ingredients
+
+1. Dried seaweed
+2. Short grain rice
+3. Hard and long vegetables (cucumber, carrots)
+4. Avocado
+
+## Steps
+
+1. Lay down the seaweed
+
+2. Lay a thin layer of rice over the sweaweed
+
+3. Put a small amount of long vegetables in the middle of the rice layer
+
+5. Delicately roll as to make a circle
+
+6. cut the roll as thick as you ant a sushi to be
+
+
+
+
+
