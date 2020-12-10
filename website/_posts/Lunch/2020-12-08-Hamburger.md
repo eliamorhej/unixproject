@@ -17,7 +17,7 @@ image: /assets/img/sample/burger.jpg
 
 2. Reduce the Heat as the patty starts to sizzle
 
-3.Put your burger buns in a toaster
+3. Put your burger buns in a toaster
 
 5. Wait until the patty is clearly cooked
 

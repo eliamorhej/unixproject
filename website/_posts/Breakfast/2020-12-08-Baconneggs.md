@@ -5,7 +5,7 @@ date: 2020-12-08
 image: /assets/img/sample/baconneggs.jpeg
 ---
 
-## Recipes
+## Ingredients
 
 1. A loaf of your favorite bread
 2. Extra-large eggs, because you want a generous yolk.
