@@ -15,7 +15,7 @@
 
 - name: Team Website
   descr: "A Team Website created by Elia, Thomas and myself using Jekyll. A Website about Food Recipes"
-  demo: https://51.222.87.247/
+  demo: https://51.222.87.249/
   tags:
     - tag: Jekyll
     - tag: Ruby
