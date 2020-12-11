@@ -2,7 +2,7 @@
 title: Bacon & Eggs
 categories: [Breakfast]
 date: 2020-12-08
-image: /assets/img/sample/baconneggs.jpeg
+image: /assets/img/sample/baconneggs.jpg
 ---
 
 ## Ingredients
