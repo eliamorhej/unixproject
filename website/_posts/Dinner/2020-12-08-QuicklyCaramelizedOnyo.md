@@ -8,17 +8,11 @@ image: /assets/img/sample/Onyo.jpg
 ## Ingredients
 
 1. Vidalia Onyo
-
 2. Sugar
-
 3. Balsamic Vinegar
-
 4. Unsalted Butter
-
 5. Water
-
 6. Salt
-
 7. Pepper
 
 ## Steps
