@@ -1,0 +1,74 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline-side: right
+
+- title: Vanier College 3rd Semester
+  title-url: https://www.vaniercollege.qc.ca/
+  date: Aug 2020 - Present
+  subtitle: Computer Science 
+  tags:
+    - tag: Programming Patterns
+    - tag: Internet Programming
+    - tag: Unix
+    - tag: Application Development
+    - tag: French 
+    - tag: Humanities  
+  timeline-side: right
+
+- title: Vanier College 2nd Semester
+  title-url: https://www.vaniercollege.qc.ca/
+  date: Jan 2019 - May 2019
+  subtitle: Computer Science 
+  tags:
+    - tag: Programming 2
+    - tag: Database
+    - tag: Computer Envrionment
+    - tag: English
+    - tag: Humanities
+    - tag: Physical Education
+  timeline-side: right
+
+- title: Vanier College 1st Semester
+  title-url: https://www.vaniercollege.qc.ca/
+  date: Aug 2019 - Dec 2019
+  subtitle: Computer Science
+  tags:
+    - tag: Programming 1
+    - tag: Math Concept
+    - tag: Intro Computer Science
+    - tag: Game Programming 1
+    - tag: English
+  timeline-side: right
+
+- title: Ecole Saint-Laurent (Emile Legault)
+  title-url: https://ecolesaintlaurent.ca/
+  date: Sep 2016 - June 2019
+  subtitle: Grade 9 - 11
+  timeline-side: right
+
+- title: Ecole Saint-Laurent (Saint-Germain)
+  title-url: https://ecolesaintlaurent.ca/
+  date: Sept 2014 - June 2016
+  subtitle: Grade 7 - 8
+  timeline-side: left
+
+- title: Ecole Saint-Laurent (Cardinal Leger)
+  title-url: https://cardinalleger.ecolesaintlaurent.ca/
+  date: Sept 2008 - June 2014
+  subtitle: Grade 1 - 6
+  timeline-side: right
