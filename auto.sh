@@ -15,3 +15,8 @@ sudo cp -a /var/repo/unixproject/website/_site/. /var/www/html
 
 echo "Website updated. Script will run in 5 mins. Enjoy  !"
 
+cd /var/repo/unixproject/thomas/website
+sudo bundle exec jekyll build
+sudo cp -a /var/repo/unixproject/thomas/website/_site/. /var/www/html/thomas/
+
+
