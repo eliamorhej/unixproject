@@ -5,7 +5,7 @@ theme: jekyll-theme-leaf
 baseurl: "/thomas"
 
 # for a clean URL
-permalink: :slug
+# permalink: :slug
 
 social:
   twitter: _SupunKavinda
