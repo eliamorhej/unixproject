@@ -3,8 +3,4 @@ title: About
 layout: page
 ---
 
-Hey! This is the "Leaf" Jekyll theme created by <a rel="me" target="_blank" href="https://twitter.com/_SupunKavinda">Supun Kavinda</a>.
-
-You can find the source code of this theme at <a href="https://github.com/SupunKavinda/jekyll-theme-leaf">Github</a>
-
-(Change this by editing `about.md` file)
+This is my personal website on which I have decided to put my personal journal as well as one of the assignments that we had to do for internet programming so that I could have a slightly fuller website.

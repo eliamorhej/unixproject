@@ -85,8 +85,7 @@ theme: jekyll-theme-leaf
 permalink: :slug
 
 social:
-  twitter: YOUR_TWITTER
-  github: YOUR_GITHUB
+
 
 plugins:
  - jekyll-feed
