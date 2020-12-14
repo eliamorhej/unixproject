@@ -10,6 +10,10 @@ The actual content of the team website is contained in the "website" folder unde
 
 To check out our website, please visit --> [Food Court](http://51.222.87.249/)
 
+## Installation
+
+To install the project in your own server check the INSTALL.md file
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
