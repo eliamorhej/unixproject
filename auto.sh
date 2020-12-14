@@ -4,6 +4,7 @@ echo "Running Automated Deployment Script ..."
 cd /var/repo/unixproject
 
 echo "Pulling Repository ..."
+sudo git config credential.helper store
 sudo git pull
 cd website
 
