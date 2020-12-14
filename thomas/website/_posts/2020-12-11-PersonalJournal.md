@@ -1,0 +1,43 @@
+---
+layout: post
+author: Thomas Meyer
+title: Personal Journal
+---
+Personal Journal for the unix project
+
+2020-11-25
+We sat down to try and buy the VPS but did not manage to do anything because we realized that it would take some time before it would actually be available.
+ 
+2020-11-27
+A few days later (I think it was the 27th), we sat down once again but then realized that the person that bought the VPS had to also provide some information before we were able to do anything. This meant that we had to wait once again.
+ 
+2020-12-01
+We were finally able to start working on the VPS today since we got access to it. We logged onto it and made all of our accounts and started deciding what kind of website and name we would do and have. We had a few issues, mainly with the public keys which we managed to fix after a bit of time. We used the ssh username@IP successfully after using ssh-keygen to get the key properly. We were able to complete all of the sysadmin tasks successfully, without having much trouble with any of them.
+ 
+2020-12-05
+Finished doing a single task which we forgot to do for Lab 13 and started working on lab 14. Was able to install nginx and test to make sure that it worked (and it does). I made a simple html file with a single image to test and see if I could actually put my own website instead of the nginx introduction one. I used scp -r to move all of the files (html, jpeg, etc.) to the server and then used the IP/name link to run it and it worked well. 
+ 
+2020-12-06
+We were able to install and download git and get everything working properly. After receiving an answer by mio we were able to do it all on GitHub which facilitated the process massively. So far, I have learned that git init is to initialize a .git repository, git clone is to clone an existing repository, git commit is to add files to the commit, which is then going to be pushed to the remote repository. These are the basics of git from what it seems like. We had a few issues with the next step (the one where you have to fix a merge error) and the reason for that was because I wasn’t doing the right commands and I did not figure that out for a little while. Other than that, everything went mostly smoothly in my opinion, and we were able to get onto the next step. I downloaded Jekyll and ran the necessary commands such as:
+sudo apt-get install ruby-full build-essential zlib1g-dev
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+I then attempted to install a theme. I chose the lone-wolf-theme and to make it work I had to modify some things in the GemFile as well as the config.yml. In the config.yml I had to change the theme and that was quite easy to do. In the GemFile however, I had to add a gem “kramdown-parser-gfm” and change one of the gems to “lone-wolf-theme” and another to “jekyll”, “~> 3.8” I believe that I also had to download a zip file containing all of the things for the theme and then put that into my “myblog folder” but it might’ve not even made a difference, I wasn’t able to verify since I did not have enough time.
+After doing all of these changes it finally decided to work properly and I was able to have a pretty orange website with a Jekyll theme. We had a whole bunch of questions that appeared as we approached the 4th part and we were not really able to start it since we wanted to clarify some things first, which is also why we sent a mio asking about a few things. As soon as we get the answer back we are going to start working on the final website/product and finalizing everything that we weren’t able to in Lab 14. 
+ 
+2020-12-08
+We were able to get an extension which meant that we had more time to actually select a proper website theme and make the script which would update the website. The script was quite simple to make as it was just a few cd commands, the start running server command, some git pulls, etc. The Service was a bit harder but still quite simple to create. It consisted of
+Restart=Always
+RestartSec=300s
+ExecStart = /var/rpo/unixproject/auto.sh.
+We had a few struggles, mainly with figuring out why the service wouldn’t always update the proper folders, which we fixed quite easily. We also had a few issues with git commands such as the fact that I was not able to push stuff properly since I never realized that I was doing everything in the master branch instead of the main branch.
+
+2020-12-12
+I realized that there was an issue with the service where it would not properly update my personal folder for the website, the one which goes IP/name. We had to go through the script and add another part to it which would make it run the bundle exec jekyll serve command so that it would actually update it properly, after having pulled it from the github repository.
+
+ 
+
+
